@@ -15,25 +15,39 @@ This project involves creating a dashboard for property management. The frontend
 
 ### Technologies
 
-1) Frontend: React.js, Context API/Redux, HTML, CSS (for UI responsiveness)
+1) Frontend: React.js, Context API, Tailwind CSS,HTML, CSS,(for UI responsiveness)
 2) Backend: Node.js, Express.js (RESTful API)
 3) Database: PostgreSQL
 4) Data Fetching: Python
 5) Other: Figma (UI Design Reference)
 
 ### Running the Application
- 1.Backend: Set up the Node.js server as described above. 
-`node index.js`
+ 0.Backend: Set up the Node.js server as described above. 
 
- 2.Frontend: Set up the React.js application as described. 
- `npm run start`
+1.`git clone https://github.com/Shubhamtribhuvan8/PyCray_Assessment.git`
+2.`cd property-api`
+3.`npm install`
+4.`node index.js`
+
+*Endpoints:
+1.GET /properties: Fetches property details.
+3.GET /financial/:id: Fetches financial records.
+
+ 1.Frontend: Set up the React.js application as described. 
+
+1.`git clone https://github.com/Shubhamtribhuvan8/PyCray_Assessment.git`
+2.`cd pycray-fe`
+3.`npm install`
+4.`npm run start`
  
-3.Database: Set up PostgreSQL with the provided schema and data. 
+2.Database: Set up PostgreSQL with the provided schema and data. 
 
-4.Data Fetching: Run the Python script to generate data. 
+
+
+3.Data Fetching: Run the Python script to generate data. 
 `python fetch_data.py `
 
-5.Once everything is set up, the application should be running on http://localhost:3001 (for frontend) and http://localhost:3000 (for backend).
+4.Once everything is set up, the application should be running on http://localhost:3001 (for frontend) and http://localhost:3000 (for backend).
 
 
 
