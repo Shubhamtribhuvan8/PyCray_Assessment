@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Ionic
+.sass-cache/
+.cache/
+.tmp/
+.platforms/
+.plugins/
+www/
+dist/
+
+# VSCode
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# ENV
+.env
