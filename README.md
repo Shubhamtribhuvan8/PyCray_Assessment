@@ -34,3 +34,24 @@ This project involves creating a dashboard for property management. The frontend
 `python fetch_data.py `
 
 5.Once everything is set up, the application should be running on http://localhost:3001 (for frontend) and http://localhost:3000 (for backend).
+
+
+
+### Database Setup (PostgreSQL)
+
+1.The PostgreSQL database is used to store data for properties, occupancy rates, and financial records. Below is a basic schema structure:
+
+## Tables:
+1.Properties: Stores information about each property.
+id, owner_name, property_name, total_units, filled_units, vacant_units, occupancy_rate, last_maintenance_date
+
+2.Financial Records: Stores financial data for each property.id, property_id, income, expenses, net_profit
+Steps to Set Up the Database:
+
+3.Install PostgreSQL if not already installed.
+Create a new database:`CREATE DATABASE property_management`
+
+4.Run the schema SQL file to create the necessary tables:`psql -d property_management -f schema.sql`
+
+5.opulate the tables with sample data using sample_data.sql.
+
