@@ -37,11 +37,12 @@ This project involves creating a dashboard for property management. The frontend
 
 
 
-### Database Setup (PostgreSQL)
+### Database Setup (PostgreSQL):-
 
-1.The PostgreSQL database is used to store data for properties, occupancy rates, and financial records. Below is a basic schema structure:
+*The PostgreSQL database is used to store data for properties, occupancy rates, and financial records. Below is a basic schema structure:
 
-## Tables:
+### Tables:
+
 1.Properties: Stores information about each property.
 id, owner_name, property_name, total_units, filled_units, vacant_units, occupancy_rate, last_maintenance_date
 
