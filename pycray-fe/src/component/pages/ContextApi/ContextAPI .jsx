@@ -21,7 +21,7 @@ export const PropertyProvider = ({ children }) => {
       total_units: 50,
       filled_units: 42,
       vacant_units: 8,
-      occupancy_rate: "85%",
+      occupancy_rate: "85",
       last_maintenance_date: "2024-09-11",
     },
     {
@@ -30,7 +30,7 @@ export const PropertyProvider = ({ children }) => {
       total_units: 60,
       filled_units: 45,
       vacant_units: 15,
-      occupancy_rate: "75%",
+      occupancy_rate: "75",
       last_maintenance_date: "2024-09-11",
     },
     {
@@ -39,7 +39,7 @@ export const PropertyProvider = ({ children }) => {
       total_units: 60,
       filled_units: 45,
       vacant_units: 15,
-      occupancy_rate: "75%",
+      occupancy_rate: "75",
       last_maintenance_date: "2024-09-11",
     },
   ];
