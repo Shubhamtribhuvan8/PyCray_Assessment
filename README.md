@@ -68,5 +68,5 @@ Create a new database:`CREATE DATABASE property_management`
 
 4.Run the schema SQL file to create the necessary tables:`psql -d property_management -f schema.sql`
 
-5.opulate the tables with sample data using sample_data.sql.
+5.populate the tables with sample data using sample_data.sql.
 
