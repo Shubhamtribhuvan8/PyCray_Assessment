@@ -22,11 +22,15 @@ This project involves creating a dashboard for property management. The frontend
 5) Other: Figma (UI Design Reference)
 
 ### Running the Application
- Backend: Set up the Node.js server as described above. 
+ 1.Backend: Set up the Node.js server as described above. 
 `node index.js`
- Frontend: Set up the React.js application as described. 
+
+ 2.Frontend: Set up the React.js application as described. 
  `npm run start`
-Database: Set up PostgreSQL with the provided schema and data. 
-Data Fetching: Run the Python script to generate data. 
+ 
+3.Database: Set up PostgreSQL with the provided schema and data. 
+
+4.Data Fetching: Run the Python script to generate data. 
 `python fetch_data.py `
-Once everything is set up, the application should be running on http://localhost:3001 (for frontend) and http://localhost:3000 (for backend).
+
+5.Once everything is set up, the application should be running on http://localhost:3001 (for frontend) and http://localhost:3000 (for backend).
