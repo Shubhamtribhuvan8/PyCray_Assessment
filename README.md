@@ -39,9 +39,11 @@ This project involves creating a dashboard for property management. The frontend
 2.`cd pycray-fe`
 3.`npm install`
 4.`npm run start`
+
  
 2.Database: Set up PostgreSQL with the provided schema and data. 
 
+![db-pgserver](https://github.com/user-attachments/assets/f8a51006-a73e-4ed4-80ac-b2d1c911fda3)
 
 
 3.Data Fetching: Run the Python script to generate data. 
